@@ -25,6 +25,13 @@
     color: coral;
 }
 
+.card, .card-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .old-price {
     color: lightcoral;
     text-decoration: line-through;
@@ -32,4 +39,8 @@
 
 .price {
     color: coral;
+}
+
+h1 {
+    text-align: center;
 }
